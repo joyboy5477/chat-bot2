@@ -1,8 +1,8 @@
 from setuptools import find_packages, setup
 
 setup(
-    name = 'Gita Chatbot',
-    version= '0.0.0',
+    name = 'RAG Implementation',
+    version= '0.0.1',
     author= 'Akash V',
     author_email= 'vishwaka@usc.edu',
     packages= find_packages(),

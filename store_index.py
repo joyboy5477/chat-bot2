@@ -5,16 +5,11 @@ from dotenv import load_dotenv
 from pinecone import Pinecone
 import os
 
-
-
 #LOADING API KEYS
 load_dotenv()
 PINECONE_API_KEY = os.environ.get('PINECONE_API_KEY')
 PINECONE_API_ENV = os.environ.get('PINECONE_API_ENV')
 PINECONE_HOST = os.environ.get('PINECONE_HOST')
-# print(PINECONE_API_KEY)
-# print(PINECONE_API_ENV)
-# print(PINECONE_HOST)
 
 #extarct data and split it
 extract_data = load_data("data/G.pdf")
