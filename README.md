@@ -1,30 +1,29 @@
-# Bhagavad Gita Chatbot using-Llama2
+# RAG Chatbot for PDF Interaction
 
-Welcome to the Bhagavad Gita Chatbot project! This innovative chatbot aims to bring the timeless wisdom of the Bhagavad Gita closer to people through the power of Generative AI. By combining advanced AI technologies with an intuitive user interface, we offer an interactive platform where users can explore the teachings of the Bhagavad Gita in a conversational manner.
+Welcome to the RAG Chatbot project! This chatbot leverages Generative AI to provide an interactive platform for engaging with PDF documents. Users can upload PDFs and explore their content through conversational interactions, making complex information more accessible and understandable.
 
 ## Features
 
-- **Interactive Dialogue**: Engage in conversations with the chatbot to explore the teachings of the Bhagavad Gita.
-- **Verse Retrieval**: Access verses and interpretations directly related to your questions or topics of interest.
-- **Contextual Insights**: Gain deeper understanding through contextually relevant insights and explanations.
+- **Interactive Dialogue**: Engage in dynamic conversations with the chatbot to delve into the content of uploaded PDFs.
+- **Content Retrieval**: Quickly access specific information, quotes, or sections from PDFs based on your queries.
+- **Contextual Insights**: Receive contextually relevant insights and explanations to enhance understanding of the document's content.
 
 ## Built With
 
-- **Llama-2** - For understanding and generating natural language responses.
-- **Pinecone** - A vector database that enables efficient retrieval of relevant information.
-- **Langchain** - Orchestrates the integration between the generative AI and the vector database.
-- **Flask** - The web framework used for deploying the chatbot as a web application.
+- **LLaMA-2**: Powers the understanding and generation of natural language responses.
+- **Pinecone**: A vector database that facilitates efficient retrieval of document-specific information.
+- **LangChain**: Orchestrates the integration between generative AI and the vector database for seamless interaction.
+- **Flask**: Used for deploying the chatbot as a web application.
 
 ## Getting Started
 
-# How to run?
-### STEPS:
+### How to Run?
 
-Clone the repository
+#### Clone the Repository
 
 ```bash
-Project repo: https://github.com/
-```
+git clone https://github.com/your-repository-url
+cd your-repository-directory
 
 ### STEP 01- Create a conda environment after opening the repository
 
